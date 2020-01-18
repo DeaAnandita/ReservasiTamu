@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registrasi_akun">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarRegister"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/ActionBarThemeOverlay">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        app:layout_constraintTop_toBottomOf="@+id/toolbarRegister"
+        android:id="@+id/txtnama"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/line"
+        android:hint="Nama"
+        android:paddingHorizontal="10dp"/>
+
+    <EditText
+        android:id="@+id/txtnotelp"
+        app:layout_constraintTop_toBottomOf="@+id/txtnama"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/line"
+        android:hint="No Telepon"
+        android:paddingHorizontal="10dp"/>
+
+    <EditText
+        app:layout_constraintTop_toBottomOf="@+id/txtnotelp"
+        android:id="@+id/txtusername"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/line"
+        android:hint="Username"
+        android:paddingHorizontal="10dp" />
+
+    <EditText
+        app:layout_constraintTop_toBottomOf="@id/txtusername"
+        android:id="@+id/txtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/line"
+        android:hint="Password"
+        android:paddingHorizontal="10dp"/>
+
+    <Button
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/btnregistrasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="REGISTRASI"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btndb"
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,6 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Booking"></activity>
         <activity android:name=".DeskripsiPaket1" />
+        <activity android:name=".login"></activity>
+        <activity android:name=".registrasi_akun" />
         <activity android:name=".HomeDashboard" />
         <activity android:name=".MainActivity">
             <intent-filter>
