@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeDashboard"></activity>
+        <activity android:name=".coba"></activity>
+        <activity android:name=".Booking" />
+        <activity android:name=".DeskripsiPaket1" />
+        <activity android:name=".login" />
+        <activity android:name=".registrasi_akun" />
+        <activity android:name=".HomeDashboard" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
