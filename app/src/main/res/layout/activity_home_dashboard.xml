@@ -94,270 +94,271 @@
                     android:textColor="@color/text"
                     android:text="SELAMAT DATANG DI STUDIO ANIMASI SMK RADEN UMAR SAID KUDUS" />
 
-                <LinearLayout
-                    android:id="@+id/lnpk12"
-                    android:gravity="center"
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvPaket1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="10sp">
 
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/cdpaket1"
-                        android:layout_width="160dp"
-                        android:layout_height="190dp"
-                        android:layout_margin="10dp"
-                        app:cardCornerRadius="8dp"
-                        android:background="@color/white">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/linedb"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:background="@drawable/circle"
-                            android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="12dp"
+                            android:src="@mipmap/icon" />
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="PAKET 1"
-                                android:gravity="center"
-                                android:layout_marginTop="15dp"
-                                android:textColor="@color/white"
-                                android:textSize="15dp"
-                                android:textStyle="bold"/>
-
-
-                        </LinearLayout>
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="63dp"
-                                android:layout_marginTop="36dp"
-                                android:scaleType="fitXY"
-                                android:src="@mipmap/qwer" />
+                            android:orientation="vertical"
+                            android:gravity="center">
 
                             <TextView
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Keliling Studio"
-                                android:gravity="center"
-                                android:layout_marginTop="10dp"
+                                android:layout_marginTop="20dp"
                                 android:textColor="@color/text"
+                                android:layout_marginRight="20dp"
                                 android:textSize="15dp"
                                 />
 
+                            <View
+                                android:layout_width="150dp"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@color/colorAccent" />
+
                             <TextView
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Rp 30.000,- / Orang"
                                 android:gravity="center"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginTop="10dp"
                                 android:textColor="@color/text"/>
                         </LinearLayout>
 
 
+                    </LinearLayout>
 
-                    </androidx.cardview.widget.CardView>
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/cdpaket2"
-                        android:layout_width="160dp"
-                        android:layout_height="190dp"
-                        app:cardCornerRadius="8dp"
-                        android:layout_margin="10dp"
-                        android:background="@color/white">
+                </androidx.cardview.widget.CardView>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:background="@drawable/circle"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="PAKET 2"
-                                android:gravity="center"
-                                android:layout_marginTop="15dp"
-                                android:textColor="@color/white"
-                                android:textSize="15dp"
-                                android:textStyle="bold"/>
-
-
-                        </LinearLayout>
-
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="63dp"
-                                android:layout_marginTop="36dp"
-                                android:scaleType="fitXY"
-                                android:src="@mipmap/qwer" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Keliling Studio + Makan"
-                                android:gravity="center"
-                                android:layout_marginTop="10dp"
-                                android:textColor="@color/text"
-                                android:textSize="14dp"
-                                />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Rp 30.000,- / Orang"
-                                android:gravity="center"
-                                android:textColor="@color/text"/>
-                        </LinearLayout>
-
-                    </androidx.cardview.widget.CardView>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/lnpk34"
-                    android:gravity="center"
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvPaket2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/cdpaket3"
-                        android:layout_width="160dp"
-                        android:layout_height="190dp"
-                        app:cardCornerRadius="8dp"
-                        android:layout_margin="10dp"
-                        android:background="@color/white">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:background="@drawable/circle"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="PAKET 3"
-                                android:gravity="center"
-                                android:layout_marginTop="15dp"
-                                android:textColor="@color/white"
-                                android:textSize="15dp"
-                                android:textStyle="bold"/>
-
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="63dp"
-                                android:layout_marginTop="36dp"
-                                android:scaleType="fitXY"
-                                android:src="@mipmap/qwer" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Keliling Studio + Foto"
-                                android:gravity="center"
-                                android:layout_marginTop="10dp"
-                                android:textColor="@color/text"
-                                android:textSize="14dp"
-                                />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Rp 30.000,- / Orang"
-                                android:gravity="center"
-                                android:textColor="@color/text"/>
-                        </LinearLayout>
-
-                    </androidx.cardview.widget.CardView>
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/cdpaket4"
-                        android:layout_width="160dp"
-                        android:layout_height="190dp"
-                        app:cardCornerRadius="8dp"
-                        android:layout_margin="10dp"
-                        android:background="@color/white">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp"
-                            android:background="@drawable/circle"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="PAKET 4"
-                                android:gravity="center"
-                                android:layout_marginTop="15dp"
-                                android:textColor="@color/white"
-                                android:textSize="15dp"
-                                android:textStyle="bold"/>
-
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="63dp"
-                                android:layout_marginTop="36dp"
-                                android:scaleType="fitXY"
-                                android:src="@mipmap/qwer" />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Keliling Studio + Makan + Foto"
-                                android:gravity="center"
-                                android:layout_marginTop="10dp"
-                                android:textColor="@color/text"
-                                android:layout_marginHorizontal="1dp"
-                                android:textSize="15dp"
-                                />
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Rp 30.000,- / Orang"
-                                android:gravity="center"
-                                android:layout_marginTop="5dp"
-                                android:textColor="@color/text"/>
-                        </LinearLayout>
-
-                    </androidx.cardview.widget.CardView>
-
-                </LinearLayout>
-                <Button
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
                     android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="10sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/linedb"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="12dp"
+                            android:src="@mipmap/icon" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Keliling Studio + Makan"
+                                android:textColor="@color/text"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="150dp"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@color/colorAccent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="20dp"
+                                android:gravity="center"
+                                android:text="Rp 50.000,- / Orang"
+                                android:textColor="@color/text" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvPaket3"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="10sp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/linedb"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="12dp"
+                            android:src="@mipmap/icon" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Keliling Studio + Foto"
+                                android:textColor="@color/text"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="150dp"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@color/colorAccent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="20dp"
+                                android:gravity="center"
+                                android:text="Rp 50.000,- / Orang"
+                                android:textColor="@color/text" />
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvPaket4"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="10sp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/linedb"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="12dp"
+                            android:src="@mipmap/icon" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="10dp"
+                                android:text="Keliling Studio + Makan + Foto"
+                                android:textColor="@color/text"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="150dp"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="20dp"
+                                android:background="@color/colorAccent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="20dp"
+                                android:gravity="center"
+                                android:text="Rp 50.000,- / Orang"
+                                android:textColor="@color/text" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/btndb"
                     android:text="REGISTRASI"
-                    android:textColor="@color/white"/>
+                    android:textColor="@color/white" />
 
             </LinearLayout>
 
