@@ -94,6 +94,96 @@
                     android:textColor="@color/text"
                     android:text="SELAMAT DATANG DI STUDIO ANIMASI SMK RADEN UMAR SAID KUDUS" />
 
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="260dp"
+                        android:layout_marginLeft="25dp"
+                        android:background="@drawable/line1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="188dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="20dp"
+                            android:textColor="@color/black"
+                            android:text="PETUNJUK PENDAFTARAN"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:text="1.Masuk ke akun anda terlebih dahulu atau Daftar jika
+anda belum punya akun."
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="2.Silahkan pilih dan daftar salah satu produk layanan/
+paket dibawah ini."
+                            android:textColor="@color/black" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="3.Isi formulir pendaftaran dan kirim."
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="4.Tunggu sampai formulir pendaftaran anda dikonfirmasi
+oleh admin."
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="5.Jika sudah dikonfirmasi oleh admin, silahkan cek menu
+Administrasi dan buka menu Biaya Reservasi untuk
+melakukan Pembayaran."
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="6.Pendaftaran reservasi anda telah berhasil."
+                            android:textColor="@color/black" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/pakt"
+                    android:text="PRODUK LAYANAN / PAKET"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"/>
+
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cvPaket1"
                     android:layout_width="match_parent"

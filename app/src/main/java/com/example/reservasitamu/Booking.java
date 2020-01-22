@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -18,6 +20,7 @@ public class Booking extends AppCompatActivity {
 
     LinearLayout date_time;
     TextView tvTanggal, tvJam;
+    Button btnBookNow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +30,7 @@ public class Booking extends AppCompatActivity {
         tvJam = findViewById(R.id.tvJam);
         tvTanggal = findViewById(R.id.tvTanggal);
         date_time = findViewById(R.id.date_time);
+        btnBookNow = findViewById(R.id.btnBookNow);
 
         date_time.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,6 +69,14 @@ public class Booking extends AppCompatActivity {
                 new DatePickerDialog(Booking.this,dateSetListener,calendar.get(Calendar.YEAR),calendar.get(Calendar.MONTH),calendar.get(Calendar.DAY_OF_MONTH)).show();
 
 
+            }
+        });
+
+        btnBookNow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Booking.this, HomeDashboard.class);
+                startActivity(intent);
             }
         });
 
