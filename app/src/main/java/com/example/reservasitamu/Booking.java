@@ -76,6 +76,7 @@ public class Booking extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Booking.this, HomeDashboard.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
             }
         });

@@ -24,6 +24,15 @@
                 app:layout_constraintRight_toRightOf="parent"
                 android:scaleType="fitXY"/>
 
+            <ImageView
+                android:id="@+id/icprofil"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_margin="15dp"
+                android:src="@mipmap/usermainmenu" />
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/cdcenter"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -439,16 +448,6 @@ melakukan Pembayaran."
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
-
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:layout_marginTop="20dp"
-                    android:background="@drawable/btndb"
-                    android:text="REGISTRASI"
-                    android:textColor="@color/white" />
 
             </LinearLayout>
 

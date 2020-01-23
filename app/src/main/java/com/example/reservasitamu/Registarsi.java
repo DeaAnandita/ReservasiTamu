@@ -7,21 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class DeskripsiPaket1 extends AppCompatActivity {
+public class Registarsi extends AppCompatActivity {
 
-    Button btnBooking;
+    Button btnRegistrasi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_deskripsi_paket1);
+        setContentView(R.layout.activity_registrasi);
 
-        btnBooking = findViewById(R.id.btnBooking);
+        btnRegistrasi = findViewById(R.id.btnRegistrasi);
 
-        btnBooking.setOnClickListener(new View.OnClickListener() {
+        btnRegistrasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DeskripsiPaket1.this, Booking.class));
+                startActivity(new Intent(Registarsi.this, Profile.class));
+                finish();
             }
         });
 

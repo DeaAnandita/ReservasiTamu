@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login">
+    tools:context=".Login">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
@@ -84,8 +84,7 @@
         android:textColor="@color/red"
         android:layout_marginLeft="5dp"
         android:text="DAFTAR"
-
-        />
+        android:id="@+id/tvRegister"/>
 
     </LinearLayout>
 
