@@ -10,4 +10,8 @@
     <color name="pakt">#F78888</color>
     <color name="white">#FFFFFF</color>
     <color name="abu">#CACACA</color>
+
+    <color name="colorNavigationIcon">#dae9f6</color>
+    <color name="colorNavigationText">#ffffff</color>
+
 </resources>

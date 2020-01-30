@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.reservasitamu.Fragment.MainFragment;
+
 public class Login extends AppCompatActivity {
 
     Button btnLogin;
@@ -24,7 +26,7 @@ public class Login extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Login.this, Profile.class));
+                startActivity(new Intent(Login.this, MainFragment.class));
                 finish();
             }
         });
