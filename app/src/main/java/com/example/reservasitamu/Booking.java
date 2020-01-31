@@ -13,6 +13,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
+import com.example.reservasitamu.Fragment.MainFragment;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
@@ -75,7 +77,7 @@ public class Booking extends AppCompatActivity {
         btnBookNow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Booking.this, HomeDashboard.class);
+                Intent intent = new Intent(Booking.this, MainFragment.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
             }

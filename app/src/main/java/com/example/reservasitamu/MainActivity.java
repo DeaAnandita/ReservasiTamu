@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.example.reservasitamu.Fragment.MainFragment;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -19,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent i = new Intent(MainActivity.this, HomeDashboard.class);
+                Intent i = new Intent(MainActivity.this, MainFragment.class);
                 startActivity(i);
                 finish();
 

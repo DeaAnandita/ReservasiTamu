@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ReservasiTamu</string>
+
+    <string name="home">Home</string>
+    <string name="inbox">Inbox</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="profile">Profile</string>
+
 </resources>
