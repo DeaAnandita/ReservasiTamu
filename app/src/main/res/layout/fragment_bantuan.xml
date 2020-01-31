@@ -1,15 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tv_home"
-        android:layout_width="wrap_content"
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Bantuan"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:background="@color/red"
+        android:theme="@style/ActionBarThemeOverlay" />
 
-</RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:text="PETUNJUK PENDAFTARAN RESERVASI ANIMATION STUDIO "
+        android:gravity="center"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/no1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic1"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/no1"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text"
+        android:textSize="16dp"
+        android:text="Masuk ke akun anda terlebih dahulu atau Daftar jika anda belum punya akun."/>
+
+
+        <ImageView
+            android:id="@+id/no2"
+            app:layout_constraintTop_toBottomOf="@+id/no1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic2"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="33dp"/>
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@+id/no1"
+            app:layout_constraintLeft_toRightOf="@+id/no2"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:textSize="16dp"
+            android:text="Silahkan pilih dan daftar salah satu produk layanan/paket dibawah ini."/>
+
+
+        <ImageView
+            android:id="@+id/no3"
+            app:layout_constraintTop_toBottomOf="@+id/no2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic3"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@+id/no2"
+            app:layout_constraintLeft_toRightOf="@+id/no3"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:textSize="16dp"
+            android:text="Isi formulir pendaftaran dan kirim."/>
+
+
+        <ImageView
+            android:id="@+id/no4"
+            app:layout_constraintTop_toBottomOf="@+id/no3"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic4"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@+id/no3"
+            app:layout_constraintLeft_toRightOf="@+id/no4"
+            android:layout_marginTop="35dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:textSize="16dp"
+            android:text="Tunggu sampai formulir pendaftaran anda dikonfirmasi oleh admin."/>
+
+        <ImageView
+            android:id="@+id/no5"
+            app:layout_constraintTop_toBottomOf="@+id/no4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic5"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@+id/no4"
+            app:layout_constraintLeft_toRightOf="@+id/no5"
+            android:layout_marginTop="32dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:textSize="16dp"
+            android:text="Jika sudah dikonfirmasi oleh admin, silahkan cek menu Administrasi dan buka menu Biaya Reservasi untuk melakukan Pembayaran."/>
+
+        <ImageView
+            android:id="@+id/no6"
+            app:layout_constraintTop_toBottomOf="@+id/no5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic6"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="38dp"/>
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@+id/no5"
+            app:layout_constraintLeft_toRightOf="@+id/no6"
+            android:layout_marginTop="45dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:textSize="16dp"
+            android:text="Pendaftaran reservasi anda telah berhasil."/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

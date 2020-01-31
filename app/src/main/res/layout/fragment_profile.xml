@@ -86,7 +86,6 @@
 
 
     <TextView
-        android:layout_marginBottom="75dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Copyright © 2019 RPL SMK RUS Android Team"
