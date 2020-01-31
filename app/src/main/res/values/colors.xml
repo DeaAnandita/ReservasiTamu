@@ -13,5 +13,11 @@
 
     <color name="colorNavigationIcon">#dae9f6</color>
     <color name="colorNavigationText">#ffffff</color>
+    
+    <color name="abutua">#B0B7D0</color>
+    <color name="hijau">#14D41A</color>
+    <color name="merah">#D41414</color>
+    <color name="biru">#2476FF</color>
+
 
 </resources>
